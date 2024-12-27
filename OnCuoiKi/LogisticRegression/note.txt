@@ -1,0 +1,4 @@
+Caì đặt 6 thuật toán theo LR:
+- M = 1
+- M = n (all sample)
+- M = m (some samples)
