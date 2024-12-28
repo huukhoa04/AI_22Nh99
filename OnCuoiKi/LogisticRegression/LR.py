@@ -60,7 +60,7 @@ def display(w):
 
 def load_data(filepath):
    try:
-      data = np.loadtxt(filepath, delimiter=',', skiprows=1)
+      data = np.loadtxt(filepath, delimiter=',')
       X = data[:, :-1].T  # Features
       y = data[:, -1]     # Labels
       return X, y
@@ -104,7 +104,7 @@ if __name__ == '__main__':
 
 
    # Load data
-   X, y = load_data('data.csv')
+   X, y = load_data('output_2.csv')
    
    # Generate random input data
    # np.random.seed(727)  # For reproducibility

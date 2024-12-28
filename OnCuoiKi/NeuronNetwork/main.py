@@ -170,7 +170,7 @@ class NN():
                     
                     if diff > threshold:
                         print('Check Grad Error at (l: {0}, col: {1}, row: {2}), | num_grad: {3} vs backprop grad: {4} | : {5}'
-                              .format(l, i, j, num_grad, grad[l][i][j], diff))
+                        .format(l, i, j, num_grad, grad[l][i][j], diff))
                         return False
         
         return True
